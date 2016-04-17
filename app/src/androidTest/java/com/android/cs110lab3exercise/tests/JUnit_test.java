@@ -36,7 +36,7 @@ public class JUnit_test extends ActivityInstrumentationTestCase2<MainActivity> {
         TextView result = (TextView)mainActivity.findViewById(com.android.cs110lab3exercise.R.id.res);
         int res = Integer.parseInt(result.getText().toString());
         */
-        assertEquals(mainActivity.sum(1,1), 2);
+        assertEquals(mainActivity.subtract(1,1), 0);
     }
 
 }
